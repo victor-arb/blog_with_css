@@ -112,3 +112,7 @@ nav .profile-link a {
     font-weight: 700;
     font-size: 1.8rem;
 }
+.home-main-button:hover {
+    background-color: #55e6c0;
+    transform: scale(1.1);
+}
