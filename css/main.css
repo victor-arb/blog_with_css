@@ -7,7 +7,7 @@
     /* box-sizing: border-box; */  
 }
 html {
-    font-size: 82.5%;
+    font-size: 62.5%;
 }
 body {
     font-family: 'Roboto mono', monospace;
@@ -16,6 +16,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: 1.6rem;
 }
 a {
     text-decoration: none;
@@ -82,6 +83,7 @@ nav .profile-link {
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
+    font-size: 1.6rem;
 }
 
 .home-main {
@@ -143,7 +145,7 @@ nav .profile-link a {
 }
 .blogs-main-news h3 {
    margin-bottom: 15px;
-   font-size: 1.4rem;
+   font-size: 1.8rem;
    font-weight: 900;
 }
 .blogs-news-img-container {
@@ -159,6 +161,7 @@ nav .profile-link a {
 .blogs-news-info-container p {
     margin-bottom: 35px;
     margin-top: 35px;
+    font-size: 1.6rem;
 }
 .blogs-post-container {
     padding: 0 50px 40px;
@@ -169,12 +172,12 @@ nav .profile-link a {
     text-align: center;
     margin-top: 20px;
     font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 .blogs-button {
     border: 1px solid #47cfac;
     padding: 10px 15px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 .blogs-button:hover {
     background-color: #47cfac;
@@ -189,6 +192,7 @@ nav .profile-link a {
 }
 .blogs-post-container .post-container p {
     margin-bottom: 35px;
+    font-size: 1.6rem;
 }
 .blogs-post-container .post-container img {
     width: 100%;
@@ -203,4 +207,58 @@ footer {
 footer p{
     color: white;
     margin-top: 30px;
+    font-size: 1.6rem;
+}
+
+
+.blogpost-img-container{
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img{
+    width: 100%;
+}
+.blogpost-main-container{
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+}
+.blogpost-main-container article h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.blogpost-main-container article p{
+    margin-bottom: 15px;
+    font-size: 1.6rem;  
+}
+
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container div a{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container p {
+    margin-top: 20px;
+}
+
+.contact-main-container img {
+    width: 100px;
 }
